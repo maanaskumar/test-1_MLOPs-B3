@@ -1,0 +1,39 @@
+947f2dd7cd80830d5e078511abbe40138e4cad62
+
+375384bfea36d297fb4f8043dde2fb7b2b61bc3e
+
+d65bba91d2a5494d3a99f1be095b38232a94db58
+
+638cec16c7c99fd1ba3fa6a02e33a5276b73a0c9
+
+913664730b59882cc5cc5e353646d5905884b9c0
+
+
+Important Commands to remember
+cat <file name> #to read the file name
+==========================================================
+<COmmands to create ssh>
+
+ssh-keygen -t ed25519
+Enger -Save-file(dont give filename)
+Enter Passphrase  (god)
+re-enter the passphrase (god)
+cd "/home/hitesh/.ssh" or cd ~/.ssh
+ls
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 ~/.ssh
+$ ls
+github_rsa  github_rsa.pub  id_ed25519  id_ed25519.pub
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 ~/.ssh
+=========================================================
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 ~/.ssh
+$ cat id_ed25519.pub
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIH5HHu+zGTKyECyBJFYLAMYFZBA8V8fUso3TauSebPGL SivaSaiKarthikeya@DESKTOP-U3M8F50
+====================================================================================================================
+
+After Cloning, you can use 
+git push => to push the changes to Server
+git pull => to pull the changes from Server to Laptop
+
+ls list of files
+git status will be helpful to understand what could be the next steps
