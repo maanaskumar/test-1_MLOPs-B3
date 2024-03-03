@@ -1,0 +1,707 @@
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 ~
+$ sudo apt-get update
+bash: sudo: command not found
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 ~
+$ git config --global user.name maanaskumar
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 ~
+$ git config --global user.email "maanaskumar.k@gmail.com"
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 ~
+$ git clone https://github.com/maanaskumar/testAIML.git
+Cloning into 'testAIML'...
+warning: You appear to have cloned an empty repository.
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 ~
+$ git clone https://github.com/maanaskumar/testAIML.git
+fatal: destination path 'testAIML' already exists and is not an empty directory.
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 ~
+$ cd E:\IISC
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC
+$ cd GitFiles
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles
+$ git clone https://github.com/maanaskumar/testAIML.git
+Cloning into 'testAIML'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles
+$ git pull
+fatal: not a git repository (or any of the parent directories): .git
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles
+$ git branch test_branch
+fatal: not a git repository (or any of the parent directories): .git
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles
+$ git --version
+git version 2.44.0.windows.1
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles
+$ mkdir 2024-03-3
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles
+$ mkdir 2024-03-03
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles
+$ cd 2024-03-03
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03
+$ git init trail
+Initialized empty Git repository in E:/IISC/GitFiles/2024-03-03/trail/.git/
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03
+$ ls
+trail/
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03
+$ cd trail
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03/trail (master)
+$ cd ..
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03
+$ cd trail
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03/trail (master)
+$ ls
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03/trail (master)
+$ cd ..
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03
+$ cd ..
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles
+$ ls
+2024-03-03/  2024-03-3/  testAIML/
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles
+$ cd 2024-03-
+2024-03-03/ 2024-03-3/
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles
+$ cd 2024-03-03
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03
+$ cd trail
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03/trail (master)
+$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03/trail (master)
+$ ls
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03/trail (master)
+$ notepad README.md
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03/trail (master)
+$ notepad README.md
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03/trail (master)
+$ notepad readme.md
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03/trail (master)
+$ ls
+README.md
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03/trail (master)
+$ cat README.md
+This is the first Git Repository Created using the nano editor in the local machine and the first commit to be made using the nano editor.
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03/trail (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        README.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03/trail (master)
+$ git add README.md
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03/trail (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   README.md
+
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03/trail (master)
+$ git commit -m "This is the first short commit message"
+[master (root-commit) 9136647] This is the first short commit message
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03/trail (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03/trail (master)
+$ nano README.md
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03/trail (master)
+$ nano README.md
+Aborting commit due to empty commit message.
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03/trail (master)
+$ git commit -m "Doing Second Commit"
+[master 638cec1] Doing Second Commit
+ 1 file changed, 8 insertions(+)
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03/trail (master)
+$ get status
+bash: get: command not found
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03/trail (master)
+$ notepad README.md
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03/trail (master)
+$ git add README.md
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03/trail (master)
+$ git commit -m "third time commit"
+[master d65bba9] third time commit
+ 1 file changed, 5 insertions(+)
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03/trail (master)
+$ notepad README.md
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03/trail (master)
+$ git add README.md
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03/trail (master)
+$ git commit
+Aborting commit due to empty commit message.
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03/trail (master)
+$ git commit -m "Fourth time commit"
+[master 375384b] Fourth time commit
+ 1 file changed, 2 insertions(+)
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03/trail (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03/trail (master)
+$ cat README.md
+
+This is the first Git Repository Created using the nano editor in the local machine and the first commit to be made using the nano editor.
+This is the second Update I have done after doing GIT Command
+I have used the below commands
+git add README.md
+To remove this file from cache after doing "git add", we can use git rm README.md
+To commit the file
+Use the command of git commit -m "Provide Short Message"
+we can use cat Readme.md file to read the line which we have written in the file.
+
+I have faced the issue when I just give the command of "git commit" instead of git commit -m "message to commit"
+
+to exit the window
+press ESC button and then write :wq or :wq! and then Enter to close the unix file
+
+Try it hard until
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03/trail (master)
+$ git log
+commit 375384bfea36d297fb4f8043dde2fb7b2b61bc3e (HEAD -> master)
+Author: maanaskumar <maanaskumar.k@gmail.com>
+Date:   Sun Mar 3 10:52:43 2024 +0530
+
+    Fourth time commit
+
+commit d65bba91d2a5494d3a99f1be095b38232a94db58
+Author: maanaskumar <maanaskumar.k@gmail.com>
+Date:   Sun Mar 3 10:51:04 2024 +0530
+
+    third time commit
+
+commit 638cec16c7c99fd1ba3fa6a02e33a5276b73a0c9
+Author: maanaskumar <maanaskumar.k@gmail.com>
+Date:   Sun Mar 3 10:47:57 2024 +0530
+
+    Doing Second Commit
+
+commit 913664730b59882cc5cc5e353646d5905884b9c0
+Author: maanaskumar <maanaskumar.k@gmail.com>
+Date:   Sun Mar 3 10:25:59 2024 +0530
+
+    This is the first short commit message
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03/trail (master)
+$ nano README.md
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03/trail (master)
+$ git add .
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03/trail (master)
+$ git commit -m "fifth commit"
+[master 947f2dd] fifth commit
+ 1 file changed, 2 insertions(+)
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03/trail (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03/trail (master)
+$ git log
+commit 947f2dd7cd80830d5e078511abbe40138e4cad62 (HEAD -> master)
+Author: maanaskumar <maanaskumar.k@gmail.com>
+Date:   Sun Mar 3 11:10:18 2024 +0530
+
+    fifth commit
+
+commit 375384bfea36d297fb4f8043dde2fb7b2b61bc3e
+Author: maanaskumar <maanaskumar.k@gmail.com>
+Date:   Sun Mar 3 10:52:43 2024 +0530
+
+    Fourth time commit
+
+commit d65bba91d2a5494d3a99f1be095b38232a94db58
+Author: maanaskumar <maanaskumar.k@gmail.com>
+Date:   Sun Mar 3 10:51:04 2024 +0530
+
+    third time commit
+
+commit 638cec16c7c99fd1ba3fa6a02e33a5276b73a0c9
+Author: maanaskumar <maanaskumar.k@gmail.com>
+Date:   Sun Mar 3 10:47:57 2024 +0530
+
+    Doing Second Commit
+
+commit 913664730b59882cc5cc5e353646d5905884b9c0
+Author: maanaskumar <maanaskumar.k@gmail.com>
+Date:   Sun Mar 3 10:25:59 2024 +0530
+
+    This is the first short commit message
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03/trail (master)
+$ ^C
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03/trail (master)
+$ ^C
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03/trail (master)
+$ git diff 947f2dd7cd80830d5e078511abbe40138e4cad62 913664730b59882cc5cc5e353646d5905884b9c0
+diff --git a/README.md b/README.md
+index 4f25a3f..5d438d2 100644
+--- a/README.md
++++ b/README.md
+@@ -1,18 +1 @@
+-
+ This is the first Git Repository Created using the nano editor in the local machine and the first commit to be made using the nano editor.
+-This is the second Update I have done after doing GIT Command
+-I have used the below commands
+-git add README.md
+-To remove this file from cache after doing "git add", we can use git rm README.md
+-To commit the file
+-Use the command of git commit -m "Provide Short Message"
+-we can use cat Readme.md file to read the line which we have written in the file.
+-
+-I have faced the issue when I just give the command of "git commit" instead of git commit -m "message to commit"
+-
+-to exit the window
+-press ESC button and then write :wq or :wq! and then Enter to close the unix file
+-
+-Try it hard until
+-
+-How to see the files diff
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03/trail (master)
+$ cd ..
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03
+$ ssh-keygen -t ed25519
+Generating public/private ed25519 key pair.
+Enter file in which to save the key (/c/Users/SivaSaiKarthikeya/.ssh/id_ed25519):
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Passphrases do not match.  Try again.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Passphrases do not match.  Try again.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Passphrases do not match.  Try again.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Passphrases do not match.  Try again.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/SivaSaiKarthikeya/.ssh/id_ed25519
+Your public key has been saved in /c/Users/SivaSaiKarthikeya/.ssh/id_ed25519.pub
+The key fingerprint is:
+SHA256:lXx7myrdBHv6HqcpbjVmZSGvxUxFjCPaowaGn8AHaWc SivaSaiKarthikeya@DESKTOP-U3M8F50
+The key's randomart image is:
++--[ED25519 256]--+
+|       .       ++|
+|      + E. ...oo.|
+|     o =  +o..*..|
+|      + +...+. =o|
+|       =So ..++o |
+|        o o .oBo |
+|         . . O+..|
+|          . =..= |
+|           +o+=  |
++----[SHA256]-----+
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03
+$ ls
+trail/
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03
+$ cd ~/.ssh
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 ~/.ssh
+$ ls
+github_rsa  github_rsa.pub  id_ed25519  id_ed25519.pub
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 ~/.ssh
+$ cd E://IISC/GitFiles/2024-03-03
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03
+$ ssh-keygen -t ed25519
+Generating public/private ed25519 key pair.
+Enter file in which to save the key (/c/Users/SivaSaiKarthikeya/.ssh/id_ed25519):
+/c/Users/SivaSaiKarthikeya/.ssh/id_ed25519 already exists.
+Overwrite (y/n)?
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03
+$ ssh-keygen -t ed25519
+Generating public/private ed25519 key pair.
+Enter file in which to save the key (/c/Users/SivaSaiKarthikeya/.ssh/id_ed25519):
+/c/Users/SivaSaiKarthikeya/.ssh/id_ed25519 already exists.
+Overwrite (y/n)? y
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/SivaSaiKarthikeya/.ssh/id_ed25519
+Your public key has been saved in /c/Users/SivaSaiKarthikeya/.ssh/id_ed25519.pub
+The key fingerprint is:
+SHA256:OPED7Ixy94nzlfkAPH5TjqNMzPYPeb2+aDtEuyqLIkA SivaSaiKarthikeya@DESKTOP-U3M8F50
+The key's randomart image is:
++--[ED25519 256]--+
+|                 |
+|     .           |
+|      +          |
+| E   + *    .    |
+|. . o * S  ...   |
+|.  o . B = Bo.   |
+| .    o O %.o..  |
+|  . .  B.= B+. . |
+|   . .. =oo+=++. |
++----[SHA256]-----+
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03
+$ ls
+trail/
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03
+$ cd ~/.ssh
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 ~/.ssh
+$ ls
+github_rsa  github_rsa.pub  id_ed25519  id_ed25519.pub
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 ~/.ssh
+$ cat id_ed25519.pub
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIH5HHu+zGTKyECyBJFYLAMYFZBA8V8fUso3TauSebPGL SivaSaiKarthikeya@DESKTOP-U3M8F50
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 ~/.ssh
+$ ^C
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 ~/.ssh
+$ cd ..
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 ~
+$ cd E://IISC/GitFiles/2024-03-03
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03
+$ git clone git@github.com:maanaskumar/test-1_MLOPs-B3.git
+Cloning into 'test-1_MLOPs-B3'...
+The authenticity of host 'github.com (20.207.73.82)' can't be established.
+ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])?
+Host key verification failed.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03
+$ git clone git@github.com:maanaskumar/test-1_MLOPs-B3.git
+Cloning into 'test-1_MLOPs-B3'...
+The authenticity of host 'github.com (20.207.73.82)' can't be established.
+ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+Enter passphrase for key '/c/Users/SivaSaiKarthikeya/.ssh/id_ed25519':
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (4/4), done.
+Receiving objects: 100% (6/6), done.
+Resolving deltas: 100% (1/1), done.
+remote: Total 6 (delta 1), reused 0 (delta 0), pack-reused 0
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03
+$ ls
+test-1_MLOPs-B3/  trail/
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03
+$ cd test-1_MLOPs-B3/
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03/test-1_MLOPs-B3 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03/test-1_MLOPs-B3 (main)
+$ cd ..
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03
+$ notepad t
+test-1_MLOPs-B3/ trail/
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03
+$ cd test-1_MLOPs-B3/
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03/test-1_MLOPs-B3 (main)
+$ mousepad README.md
+bash: mousepad: command not found
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03/test-1_MLOPs-B3 (main)
+$ notepad README.md
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03/test-1_MLOPs-B3 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03/test-1_MLOPs-B3 (main)
+$ git add README.md
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03/test-1_MLOPs-B3 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03/test-1_MLOPs-B3 (main)
+$ git commit -m "first commit afte cloning"
+[main abbdf47] first commit afte cloning
+ 1 file changed, 2 insertions(+)
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03/test-1_MLOPs-B3 (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03/test-1_MLOPs-B3 (main)
+$ git push
+Enter passphrase for key '/c/Users/SivaSaiKarthikeya/.ssh/id_ed25519':
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 317 bytes | 317.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:maanaskumar/test-1_MLOPs-B3.git
+   d9e6546..abbdf47  main -> main
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03/test-1_MLOPs-B3 (main)
+$ nano README.md
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03/test-1_MLOPs-B3 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03/test-1_MLOPs-B3 (main)
+$ git add README.md
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03/test-1_MLOPs-B3 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03/test-1_MLOPs-B3 (main)
+$ git commit -m "Second time commit after cloning"
+[main 66a39ed] Second time commit after cloning
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03/test-1_MLOPs-B3 (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03/test-1_MLOPs-B3 (main)
+$ git push
+Enter passphrase for key '/c/Users/SivaSaiKarthikeya/.ssh/id_ed25519':
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 336 bytes | 336.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:maanaskumar/test-1_MLOPs-B3.git
+   abbdf47..66a39ed  main -> main
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03/test-1_MLOPs-B3 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03/test-1_MLOPs-B3 (main)
+$ git pull
+Enter passphrase for key '/c/Users/SivaSaiKarthikeya/.ssh/id_ed25519':
+Already up to date.
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03/test-1_MLOPs-B3 (main)
+$ git pull
+Enter passphrase for key '/c/Users/SivaSaiKarthikeya/.ssh/id_ed25519':
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 965 bytes | 5.00 KiB/s, done.
+From github.com:maanaskumar/test-1_MLOPs-B3
+   66a39ed..c549eac  main       -> origin/main
+Updating 66a39ed..c549eac
+Fast-forward
+ README.md | 2 ++
+ 1 file changed, 2 insertions(+)
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03/test-1_MLOPs-B3 (main)
+$ cat README.md
+# test-1_MLOPs-B3
+This is the repository hosted on the Github Server and being used for Academic purpose
+This is the first change I am making using Github UI
+
+I have updated in the laptop after cloning
+
+Updating the file 2nd time after cloning, keep do it
+
+update the file 3rd time in browser
+
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03/test-1_MLOPs-B3 (main)
+$ ls
+Git_Commands_From_Class.txt  README.md
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03/test-1_MLOPs-B3 (main)
+$ git add Git_Commands_From_Class.txt
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03/test-1_MLOPs-B3 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Git_Commands_From_Class.txt
+
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03/test-1_MLOPs-B3 (main)
+$ git commit -m "git commands understood from class"
+[main 0e9cc65] git commands understood from class
+ 1 file changed, 39 insertions(+)
+ create mode 100644 Git_Commands_From_Class.txt
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03/test-1_MLOPs-B3 (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03/test-1_MLOPs-B3 (main)
+$ git push
+Enter passphrase for key '/c/Users/SivaSaiKarthikeya/.ssh/id_ed25519':
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 912 bytes | 912.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To github.com:maanaskumar/test-1_MLOPs-B3.git
+   c549eac..0e9cc65  main -> main
+
+SivaSaiKarthikeya@DESKTOP-U3M8F50 MINGW64 /e/IISC/GitFiles/2024-03-03/test-1_MLOPs-B3 (main)
+$
